@@ -1,0 +1,1 @@
+[{"code":"#include<stdio.h>\r\n#include<string.h>\r\nint main(){\r\n    char str[200];\r\n    fgets(str, 200, stdin);\r\n    int count =0;\r\n    for(int i=0;str[i]!='\\0';i++){\r\n        if(i == \" \"){\r\n            count++;\r\n        }\r\n    }\r\n    printf(\"%d\", count);\r\n    return 0;\r\n}","language":"c","time":"2025-04-25T17:44:01.800Z","isCorrect":false}]
