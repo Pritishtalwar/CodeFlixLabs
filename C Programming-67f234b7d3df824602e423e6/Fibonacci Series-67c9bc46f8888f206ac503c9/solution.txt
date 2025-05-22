@@ -1,0 +1,1 @@
+[{"code":"int fibonacciSeries(int n){\r\n    if(n == 0)return 0;\r\n    if(n == 1)return 1;\r\n    return n + fibonacciSeries(n-1);\r\n}","language":"c","time":"2025-05-22T06:30:52.650Z","isCorrect":false}]
